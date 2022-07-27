@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* primary: #ABC9FF */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  text-align: justify;
+}
+
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: #3AB4F2;
+}
+
+body>h1{
+  text-align: center;
+  color: #231955;
+}
+
+/* .login_btn{
+  background-color: #598aff;
+} */
+table {
+  width: 100%;
+  /* border: 1px solid #ccc; */
+  border: none ;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td img, 
+th img {
+  margin: 0;
+  padding: 0;
+}
+
+td, th {
+  /* border: 1px solid #ccc; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+  padding: 18px;
+}
+
+th {
+  white-space: nowrap;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #f00;
+  /* text-align: center; */
+}
+
+label {
+  display: block;
+  margin: 0 0 10px 0;
+  text-align: left;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+textarea {
+  border-radius: 0;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  box-sizing: border-box;
+}
+
+input {
+  border: 1px solid black;
+  font-size: 14px;
+  padding: 10px 5px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  box-sizing: border-box;
+  border-radius: 1.2rem;
+}
+
+input[type=submit] {
+  border: 0;
+  background-color: cornflowerblue;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 110%;
+  margin-top: 10px;
+  border-radius: 1.2rem;
+}
+input[type=submit]:hover {
+background-color:#003dca ;
+cursor: pointer;
+
+}
+
+#dashboard {
+  padding: 0;
+  margin: 0;
+}
+
+#dashboard li a:link,
+#dashboard li a:visited,
+#dashboard li a:active,
+#dashboard li a:hover {
+  color: rgb(0, 0, 0);
+}
+#dashboard li {
+  /* background-color: cornflowerblue; */
+  display: inline-block;
+  width: 22%;
+  margin: 1%;
+  padding: 2%;
+  box-sizing: border-box;
+  text-align: center;
+  list-style: none;
+  list-style-position: inside;
+  border: 2px solid black;
+  border-radius: 1.2rem;
+  font-weight: 500;
+}
+#dashboard li:hover {
+  /* background-color: cornflowerblue; */
+background-color: #3AB4F2;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+
+#dashboard i {
+  margin-bottom: 5px;
+}
+
+/* edit icons */
+.edit-icon{
+  color: rgb(0, 116, 77);
+  font-size: 2rem;
+}
+.delete-icon{
+  color: red;
+  font-size: 2rem;
+}
+
+.icons {
+  font-size: 36px !important;
+}
